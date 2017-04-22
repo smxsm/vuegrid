@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <p>
+    <p class="navigation">
       <router-link to="/">Intro</router-link> |
       <router-link to="/vuetable2">Vuetable-2</router-link> |
       <router-link to="/vuetables">Vue-Tables 2</router-link> |
@@ -27,5 +27,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.navigation {
+  font-size: 17px;
 }
 </style>
