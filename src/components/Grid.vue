@@ -13,6 +13,7 @@
 
     <h3>1) <a href="https://github.com/ratiw/vuetable-2" target="_blank">Vuetable-2</a></h3>
     <div>
+      <p>Vuetable 2 allows a quick start, but some additional steps are required to get a full-blown datatable with all the bells and whistles.</p>
       <h4>Additional Steps</h4>
       <ul>
         <li>npm install vue-events --save-dev</li>
@@ -20,19 +21,24 @@
       <h4>Pros</h4>
       <ul>
         <li>great step-by-step tutorials</li>
+        <li>example app with Laravel backend</li>
         <li>feature-rich</li>
         <li>support for remote data API</li>
+        <li>modularized filterbar and pagination</li>
+        <li>remote data support</li>
+        <li>easyly customizable</li>
       </ul>
 
       <h4>Drawbacks</h4>
       <ul>
-        <li>no out-of-the-box cell editing</li>
+        <li>no out-of-the-box cell editing (but can be added with custom templates or slots in Vue.js >= 2.1)</li>
       </ul>
 
     </div>
 
     <h3>2) <a href="https://github.com/matfish2/vue-tables-2" target="_blank">Vue-Tables-2</a></h3>
     <div>
+      <p>Vue-Tables 2 are simple to start with, but have a bunch of options for customization (without adding much code)</p>
       <h4>Additional Steps</h4>
       <ul>
         <li>n/a</li>
@@ -48,12 +54,16 @@
 
       <h4>Drawbacks</h4>
       <ul>
-        <li>documentation and examples are lacking</li>
-        <li>cell editing only via custom templates</li>
+        <li>documentation and examples are a bit lacking</li>
+        <li>cell editing only via custom templates / slots</li>
       </ul>
     </div>
+
     <h3>3) <a href="https://github.com/andrewcourtice/vuetiful/tree/master/src/components/datatable" target="_blank">Vuetiful</a></h3>
     <div>
+      <p>Vuetiful has some other components, too, and is probably aiming to become a full collection of UI components.
+      The datatable has some really cool features, while lacking some quite basic ones like sorting of the full dataset or
+      out-of-the-box support for remote data.</p>
       <h4>Additional Steps</h4>
       <ul>
         <li>npm install git://github.com/andrewcourtice/vuetiful.git</li>
@@ -94,6 +104,7 @@
       * datatables.net-bs in ./src/main.js
       To install it, you can run: npm install --save datatables.net-bs
       </pre>
+      and some other errors ....
       Of course, the datatables.net*-modules were installed before... if anybody has an idea how to fix that, let me know :)
     </div>
 
@@ -106,6 +117,11 @@
       and which one "feels" better to you. My personal favourite would be <strong>"Vuetiful"</strong>, too bad it doesn't really work well
     with remote data and that the sorting only sorts the current page - that will be a problem in almost any project I can think of.
     If that would be fixed, I'd definitely recommend Vuetiful since it has some other cool components, too!</p>
+    <p>So all-in-all, I'd currently recommend <strong><a href="https://github.com/ratiw/vuetable-2" target="_blank">"Vuetable-2"</a></strong>
+      since it is really flexible, has a lot of features, good documentation and examples and e.g. inline editing should't be too hard to add, especially if you are using Vue.js >= 2.1
+      with the <a href="https://vuejs.org/v2/guide/components.html#Scoped-Slots" target="_blank">new "slots" feature</a>.
+      <br/><strong><i>But - try and decide for yourself!</i></strong> :)
+    </p>
     <p>
       <img src="static/Vuetiful_Component_Framework_small.jpg">
     </p>
