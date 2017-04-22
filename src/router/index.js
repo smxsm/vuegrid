@@ -8,7 +8,7 @@ import Vuetiful from '@/components/VuetifulGrid'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   scrollBehavior: function (to, from, savedPosition) {
     if (to.hash) {
       return {selector: to.hash}

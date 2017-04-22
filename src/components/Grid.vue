@@ -77,8 +77,7 @@
         <li>no out-of-the-box remote data support (no remote paging, sorting, ...)</li>
         <li>sorting only works on current page, not the whole data set, see <a href="https://github.com/andrewcourtice/vuetiful/issues/10" target="_blank">Issue 10</a> </li>
         <li>inline cell editing only available globally (whole table, not single columns)</li>
-        <li>not available via npm / yarn yet</li>
-        <li>busy developer with little time</li>
+        <li>not available via npm / yarn package yet (but can be installed from the Github URL)</li>
       </ul>
 
     </div>
@@ -103,8 +102,8 @@
     <p>All the datatable components I have tested seem to "do their job". All of them (except JQuery Datatables probably) share the drawback though
     that they are mainly developed by single committers in their spare time, so nobody knows if the development will be discountinued
     in the future, how fast issues are taken care of etc.</p>
-    <p>That being said, I think every of these components can be used for "real life" projects, it really depends which features you need
-    and which one "feels" better to you. My personal favourite would be "Vuetiful", too bad it doesn't really work well
+    <p>That being said, none of the solutions is "perfect", but I think every of these components can be used for "real life" projects, it really depends which features you need
+      and which one "feels" better to you. My personal favourite would be <strong>"Vuetiful"</strong>, too bad it doesn't really work well
     with remote data and that the sorting only sorts the current page - that will be a problem in almost any project I can think of.
     If that would be fixed, I'd definitely recommend Vuetiful since it has some other cool components, too!</p>
     <p>
@@ -150,6 +149,7 @@
     text-align: left;
     margin-left: 20px;
     padding: 20px;
+    font-size: 16px;
   }
   .info {
     width: 80%;
