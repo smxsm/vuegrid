@@ -1,6 +1,8 @@
 # vuegrid
 
-> A Vue.js project
+> A Vue.js project for comparing datatable solutions for Vue.js
+
+Check out the [comparison, conclusion and examples](http://www.rent-a-hero.de/wp/wp-content/uploads/2017/04/vuegrid/) if you want!
 
 ## Build Setup
 

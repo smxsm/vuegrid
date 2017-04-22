@@ -85,7 +85,16 @@
 
     <h3>4) <a href="https://laracasts.com/discuss/channels/vue/using-datatables-with-vue" target="_blank">jQuery Datatables</a></h3>
     <div>
-      tbd
+      Well, I couldn't get jQuery Datatables to work in my Vue.js project ... I've tried it via
+      <a href="https://github.com/cretueusebiu/vue-datatables" target="_blank">https://github.com/cretueusebiu/vue-datatables</a>, but I was getting
+      errors with require() of "datatables.net-bs", no matter what I tried, I always got
+      <pre>
+      ERROR  Failed to compile with 1 errors                                                                                                                                         08:36:52
+      This dependency was not found:
+      * datatables.net-bs in ./src/main.js
+      To install it, you can run: npm install --save datatables.net-bs
+      </pre>
+      Of course, the datatables.net*-modules were installed before... if anybody has an idea how to fix that, let me know :)
     </div>
 
     <h3>Conclusion</h3>
@@ -101,12 +110,16 @@
       <img src="static/Vuetiful_Component_Framework_small.jpg">
     </p>
     <p>
-      So, that's it for now, I really like Vue.js so far, I'll post the source code for this comparison on Github soon!
+      So, that's it for now, I really like Vue.js so far, I've posted the source code for this comparison on
+      <a href="https://github.com/smxsm/vuegrid" target="_blank">Github</a>!
       <br/>
       Let me know if I've missed another cool datatable, I'll try to add it here!
     </p>
     <p>
       <strong>Next stop: Datatabless in Aurelia! :) Stay tuned and happy coding!</strong>
+      <br/>
+      P.S.: If you happen to use <strong>Angular</strong>, use <a href="https://www.primefaces.org/primeng/#/">PrimeNG</a> for datatables and dozens of other
+      super-cool ui widgets etc.!
     </p>
   </div>
 </template>
