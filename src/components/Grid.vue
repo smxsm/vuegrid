@@ -83,6 +83,7 @@
 
     </div>
 
+    <span name="jquery" id="jquery"></span>
     <h3>4) <a href="https://laracasts.com/discuss/channels/vue/using-datatables-with-vue" target="_blank">jQuery Datatables</a></h3>
     <div>
       Well, I couldn't get jQuery Datatables to work in my Vue.js project ... I've tried it via

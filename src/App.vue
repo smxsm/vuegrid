@@ -6,7 +6,8 @@
       <router-link to="/vuetable2">Vuetable-2</router-link> |
       <router-link to="/vuetables">Vue-Tables 2</router-link> |
       <router-link to="/vuetiful">Vuetiful</router-link> |
-      JQuery Datatables
+      <router-link to="/#jquery">JQuery Datatables</router-link> |
+      <a href="https://github.com/smxsm/vuegrid" target="_blank">Sourcecode!</a>
     </p>
     <router-view></router-view>
   </div>
