@@ -14,6 +14,9 @@
     <h3>1) <a href="https://github.com/ratiw/vuetable-2" target="_blank">Vuetable-2</a></h3>
     <div>
       <p>Vuetable 2 allows a quick start, but some additional steps are required to get a full-blown datatable with all the bells and whistles.</p>
+      <p>
+        <router-link to="/vuetable2">Try it!</router-link>
+      </p>
       <h4>Additional Steps</h4>
       <ul>
         <li>npm install vue-events --save-dev</li>
@@ -39,6 +42,9 @@
     <h3>2) <a href="https://github.com/matfish2/vue-tables-2" target="_blank">Vue-Tables-2</a></h3>
     <div>
       <p>Vue-Tables 2 are simple to start with, but have a bunch of options for customization (without adding much code)</p>
+      <p>
+        <router-link to="/vuetables">Try it!</router-link>
+      </p>
       <h4>Additional Steps</h4>
       <ul>
         <li>n/a</li>
@@ -64,6 +70,9 @@
       <p>Vuetiful has some other components, too, and is probably aiming to become a full collection of UI components.
       The datatable has some really cool features, while lacking some quite basic ones like sorting of the full dataset or
       out-of-the-box support for remote data.</p>
+      <p>
+        <router-link to="/vuetiful">Try it!</router-link>
+      </p>
       <h4>Additional Steps</h4>
       <ul>
         <li>npm install git://github.com/andrewcourtice/vuetiful.git</li>
@@ -101,6 +110,9 @@
         <a href="https://github.com/vuetifyjs/vuetify/issues/345" target="_blank">async data support seems to be in the making for the next release</a>,
         so we might have a new winner then ;)</p>
 
+      <p>
+        <a href="https://vuetifyjs.com/components/datatables" target="_blank">Try it!</a>
+      </p>
       <h4>Pros</h4>
       <ul>
         <li>cell-editing, configurable by cell</li>
