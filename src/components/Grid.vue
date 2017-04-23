@@ -149,14 +149,14 @@
     <p>
       <img src="static/Vuetiful_Component_Framework_small.jpg">
     </p>
-    <p><strong>So all-in-all</strong>, I'd currently recommend <strong><a href="https://github.com/ratiw/vuetable-2" target="_blank">"Vuetable-2"</a></strong>
+    <p><strong>All-in-all</strong>, I'd currently recommend <strong><a href="https://github.com/ratiw/vuetable-2" target="_blank">"Vuetable-2"</a></strong>
       since it is really flexible, has a lot of features, good documentation and examples and e.g. inline editing should't be too hard to add, especially if you are using Vue.js >= 2.1
       with the <a href="https://vuejs.org/v2/guide/components.html#Scoped-Slots" target="_blank">new "slots" feature</a>.
       <br/>But, as stated above, as soon as Vuetiful or Vuetify support remote / async data, I'll throw the dice again :)
       <br/><strong><i>So, as always - try and decide for yourself!</i></strong> :)
     </p>
     <p>
-      So, that's it for now, I really like Vue.js so far, I've posted the source code for this comparison on
+      Well, that's it for now, I really like Vue.js so far, I've posted the source code for this comparison on
       <a href="https://github.com/smxsm/vuegrid" target="_blank">Github</a>!
       <br/>
       Let me know if I've missed another cool datatable, I'll try to add it here!
