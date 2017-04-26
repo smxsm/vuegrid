@@ -2,6 +2,8 @@
   <div class="hello">
     <h2>{{ msg }}</h2>
 
+    <p>[04/22/2017] by Stefan Moises, stefan@rent-a-hero.de - <a href="https://twitter.com/upsettweety">@upsettweety</a></p>
+
     <div class="info">
       To "get into" Vue.js, I am going to compare different "datatable" solutions I came across and which I found promising.
       In the past, working with jQuery and mainly AngularJS (1 and 2) and also JAVA frameworks like Grails it was always very difficult and cumbersome to find a really good
@@ -130,8 +132,31 @@
       </ul>
     </div>
 
+    <h3>5) <a href="https://buefy.github.io/#/documentation/table" target="_blank">Buefy</a></h3>
+    <div>
+      <strong>Buefy</strong> is another awesome looking, responsive UI component lib for Vue.js which also features a datatable.
+
+      <p>
+        <a href="https://buefy.github.io/#/documentation/table" target="_blank">Try it!</a>
+      </p>
+      <h4>Pros</h4>
+      <ul>
+        <li>many other cool components</li>
+        <li>good documentation</li>
+        <li>easy configuration, many config options</li>
+        <li>very professional design / layout</li>
+      </ul>
+
+      <h4>Drawbacks</h4>
+      <ul>
+        <li>no cell-editing</li>
+        <li>no direct remote / async data support, but offers callbacks for server side sorting and paging</li>
+      </ul>
+
+    </div>
+
     <span name="jquery" id="jquery"></span>
-    <h3>5) <a href="https://laracasts.com/discuss/channels/vue/using-datatables-with-vue" target="_blank">jQuery Datatables</a></h3>
+    <h3>6) <a href="https://laracasts.com/discuss/channels/vue/using-datatables-with-vue" target="_blank">jQuery Datatables</a></h3>
     <div>
       Well, I couldn't get jQuery Datatables to work in my Vue.js project ... I've tried it via
       <a href="https://github.com/cretueusebiu/vue-datatables" target="_blank">https://github.com/cretueusebiu/vue-datatables</a>, but I was getting
@@ -157,11 +182,13 @@
       too bad they don't really work well
     with remote / async data - that will be a problem in almost any project I can think of.
       If that would be fixed / added, I'd definitely recommend Vuetify or Vuetiful since they both have some other cool components, too! <strong>Vuetify</strong> has more committers
-    and a bigger community, so if you are into Material Design, that would be your fave :)</p>
+    and a bigger community, so if you are into Material Design, that would be your fave :)
+      <br/>If you don't need inline cell editing and you're looking for a great looking UI lib that is NOT
+    Material Design, you could also give <strong>Buefy</strong> a shot!</p>
     <p>
       <img src="static/Vuetiful_Component_Framework_small.jpg">
     </p>
-    <p><strong>All-in-all</strong>, I'd currently recommend <strong><a href="https://github.com/ratiw/vuetable-2" target="_blank">"Vuetable-2"</a></strong>
+    <p><strong>All-in-all</strong>, since I always need good async / remote data support, I'd currently recommend <strong><a href="https://github.com/ratiw/vuetable-2" target="_blank">"Vuetable-2"</a></strong>
       since it is really flexible, has a lot of features, good documentation and examples and e.g. inline editing should't be too hard to add, especially if you are using Vue.js >= 2.1
       with the <a href="https://vuejs.org/v2/guide/components.html#Scoped-Slots" target="_blank">new "slots" feature</a>.
       <br/>But, as stated above, as soon as Vuetiful or Vuetify support remote / async data, I'll throw the dice again :)

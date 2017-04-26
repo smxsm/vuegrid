@@ -8,6 +8,7 @@
       <router-link to="/vuetiful">Vuetiful</router-link> |
       <router-link to="/#jquery">JQuery Datatables</router-link> |
       <a href="https://vuetifyjs.com/components/datatables" target="_blank">Vuetify</a> |
+      <a href="https://buefy.github.io/#/documentation/table" target="_blank">Buefy</a> |
       <a href="https://github.com/smxsm/vuegrid" target="_blank">Sourcecode!</a>
     </p>
     <router-view></router-view>
