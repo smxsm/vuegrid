@@ -150,7 +150,9 @@
       <h4>Drawbacks</h4>
       <ul>
         <li>no cell-editing</li>
-        <li>no direct remote / async data support, but offers callbacks for server side sorting and paging</li>
+        <li>no remote / async data support - unfortunately the pagination component is tied into the
+          table component and there is no callback for paging available for the table and no reference to the child component,
+          so I couldn't get it to work with remote / async data at all without hacking the component ...</li>
       </ul>
 
     </div>
