@@ -4,6 +4,7 @@ import Grid from '@/components/Grid'
 import Vuetables from '@/components/VuetablesGrid'
 import Vuetable2 from '@/components/VueTable2Grid'
 import Vuetiful from '@/components/VuetifulGrid'
+import Buefy from '@/components/BuefyGrid'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
       path: '/vuetiful',
       name: 'Vuetiful',
       component: Vuetiful
+    },
+    {
+      path: '/buefy',
+      name: 'Buefy',
+      component: Buefy
     }
   ]
 })

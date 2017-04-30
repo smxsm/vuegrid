@@ -95,6 +95,7 @@
 
 <script>
   import Vue from 'vue'
+  import axios from 'axios'
   import datatable from 'vuetiful/src/components/datatable/datatable'
   import datatableColumn from 'vuetiful/src/components/datatable/datatable-column'
   import paginator from 'vuetiful/src/components/paginator/paginator'
@@ -375,7 +376,7 @@
     methods: {
       getUsers: function () {
         var link = 'http://vuetable.ratiw.net/api/users'
-        this.$http.get(link).then(function (response) {
+        axios.get(link).then(function (response) {
           users.rows = response.data.data
           console.log('num users: ' + users.rows.length)
         }, function (error) {

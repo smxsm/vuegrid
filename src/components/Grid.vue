@@ -137,7 +137,7 @@
       <strong>Buefy</strong> is another awesome looking, responsive UI component lib for Vue.js which also features a datatable.
 
       <p>
-        <a href="https://buefy.github.io/#/documentation/table" target="_blank">Try it!</a>
+        <router-link to="/buefy">Try it!</router-link>
       </p>
       <h4>Pros</h4>
       <ul>
@@ -152,7 +152,9 @@
         <li>no cell-editing</li>
         <li>no remote / async data support - unfortunately the pagination component is tied into the
           table component and there is no callback for paging available for the table and no reference to the child component,
-          so I couldn't get it to work with remote / async data at all without hacking the component ...</li>
+          so I couldn't get it to work with remote / async data at all without hacking the component ...
+        <br/><strong>UPDATE</strong> you can get it to work combining the table with the extra pagination component -
+          see <a href="https://github.com/rafaelpimpa/buefy/issues/50" target="_blank">this issue</a>!</li>
       </ul>
 
     </div>
